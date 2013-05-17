@@ -1,4 +1,9 @@
-package org.pachnanda.designpattern;
+package org.pachnanda.designpattern.model;
+
+import org.pachnanda.designpattern.service.AdvancedPlanService;
+import org.pachnanda.designpattern.service.DefaultPlanService;
+import org.pachnanda.designpattern.service.InformationPlanService;
+
 /**
  *  I can only process Default Plans
  * @author macbookpro

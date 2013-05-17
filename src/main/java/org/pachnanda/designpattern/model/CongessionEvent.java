@@ -1,11 +1,15 @@
-package org.pachnanda.designpattern;
+package org.pachnanda.designpattern.model;
+
+import org.pachnanda.designpattern.model.BaseEvent;
+import org.pachnanda.designpattern.service.*;
+
 /**
  *  I can process all plans
  * @author macbookpro
  *
  */
-public class CongessionEvent {
-
+public class CongessionEvent extends BaseEvent{
+	
 	public void process(DefaultPlanService sp) {
 		System.out.println("CongessionEvent processed by a DefaultPlanService");
 	}

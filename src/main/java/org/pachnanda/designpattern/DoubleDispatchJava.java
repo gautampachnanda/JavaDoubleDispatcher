@@ -1,5 +1,8 @@
 package org.pachnanda.designpattern;
 
+import org.pachnanda.designpattern.model.*;
+import org.pachnanda.designpattern.service.*;
+
 public class DoubleDispatchJava {
 
 	

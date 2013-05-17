@@ -1,4 +1,6 @@
-package org.pachnanda.designpattern;
+package org.pachnanda.designpattern.service;
+
+import org.pachnanda.designpattern.model.CongessionEvent;
 
 public class AdvancedPlanService extends DefaultPlanService {
 
